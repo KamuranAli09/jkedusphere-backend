@@ -1,0 +1,274 @@
+JKEdusphere — Tests Configuration,,,,,,,,,,JKEdusphere — Tests Configuration,,,,,
+Test_ID,Test_Name,Subject,Total_Questions,Duration_Minutes,Marks_Correct,Marks_Wrong,Total_Marks,Pass_Marks,Active,access,packId,PDF_Link,examGroup,Go Live Date,Date_Added
+T001,JKPSI_Telecom_Unit1,Complete,99,120,2,-0.5,198,65.34,YES,free,jkpsi-telecom,,,,08/09/2026
+T001AA,JKPSI Telecom T01,Complete Syllabus,100,120,2,-0.5,200,66,YES,free,jkpsi-telecom,,,,
+T001A,JKPSI_Telecom_T001A,Communication System,10,15,2,-0.5,20,6.6,YES,free,jkpsi-telecom,,,,
+T001B,JKPSI_Telecom_T001B,Cyber Security,20,30,2,-0.5,40,12.12,YES,free,jkpsi-telecom,,,,
+T001C,JKPSI Telecom T001C,"Artificial Intelligence, Data Science & Automation",20,30,2,-0.5,40,12.12,YES,free,jkpsi-telecom,,,,
+T002AA,Reasoning,JKPsi Executive,10,15,2,-0.5,20,6.6,YES,paid,jkpsi-executive,,,,
+T003A,Computer,FAA,10,15,1,-0.25,10,5,YES,free,jkssb-faa,,,,
+GS1SIT,GK & CA Test-1 ,General Knowledge And Current Affairs,30,40,2,-0.5,60,12,YES,paid,jkpsi-telecom,https://drive.google.com/uc?export=download&id=1jrMDIjhQ2ujjNe1MdkK5_dHfzDS0cMlG,,,
+GS2SIT,GK & CA Test-2 ,General Knowledge And Current Affairs,30,40,2,-0.5,60,12,YES,paid,jkpsi-telecom,https://drive.google.com/uc?export=download&id=1ZFd0G7Jl5c5_9U8RoHNmLnr2Q2W449A6,,,
+GS3SIT,GK & CA Test-3 ,General Knowledge And Current Affairs,30,40,2,-0.5,60,12,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1LnGExi_sM1hZ9Cwdan1YEE2iF0JYzN0r/view?usp=sharing,,,
+JKGK1SIT,UT Specific GK Test-1 ,GK with Special Reference to J&K UT,30,40,2,-0.5,60,12,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1kglKBvDkefyEEfA9qWqVy52wTH_sRnWU/view?usp=sharing,,,
+JKGK2SIT,UT Specific GK Test-2 ,GK with Special Reference to J&K UT,30,40,2,-0.5,60,12,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1r95ZO5TI_ze6CcxKsKXB3LwW4MsRAqi0/view?usp=sharing,,,
+JKGK3SIT,UT Specific GK Test-3 ,GK with Special Reference to J&K UT,30,40,2,-0.5,60,12,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1eY0S-xEWomBeh9Ez2E-V_ZgzYvNJcuiA/view?usp=sharing,,,
+GECS1SIT,General English Test-1 ,General English & Communication Skills,30,40,2,-0.5,60,12,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1OgS_hIrUts1gRKtacwfLDvTbVs7WOFyW/view?usp=sharing,,,
+GECS2SIT,General English Test-2 ,General English & Communication Skills,30,40,2,-0.5,60,12,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1uSCcas7kvEmwb2PI_KyT9FIiMK_QUg7z/view?usp=sharing,,,
+GECS3SIT,General English Test-3 ,General English & Communication Skills,30,40,2,-0.5,60,12,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1qGfhBigSfWLln23YQ0E0T94wLSN0RGWb/view?usp=sharing,,,
+T001M,Engineering Mathematics & Signal Fundamental,JKPsi Telecom,30,40,2,-0.5,60,12,NO,paid,jkpsi-telecom,,,,
+T001N,"Electronic Devices, Analog Circuits & Network Theory",JKPsi Telecom,30,40,2,-0.5,60,12,NO,paid,jkpsi-telecom,,,,
+GIR1SI,General Intelligence & Reasoning,JKPsi Executive,20,30,2,-0.5,40,12,YES,paid,jkpsi-executive,,,,
+GA1SI,General Awareness ,JKPsi Executive,20,30,2,-0.5,40,12,YES,paid,jkpsi-executive,,,,
+QA1SI,Quantitative Aptitude,JKPsi Executive,20,30,2,-0.5,40,12,YES,paid,jkpsi-executive,,,,
+E1SI,English ,JKPsi Executive,20,30,2,-0.5,40,12,YES,paid,jkpsi-executive,,,,
+MA1SI,Mathematical Abilities,JKPsi Executive,20,30,2,-0.5,40,12,YES,paid,jkpsi-executive,,,,
+T002F,Computer Proficiency ,JKPsi Executive,30,35,2,-0.5,60,12,YES,free,jkpsi-executive,,,,
+T003B,Accountancy,FAA,30,25,1,-0.25,30,4,YES,free,jkssb-faa,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+TFAA01Full,FAA Full Length,FAA,120,120,1,-0.25,120,60,YES,free,jkssb-faa,,,,
+GIR1SIT,GI & Reasoning Test 1,Reasoning,30,35,2,-0.5,60,30,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1EALey624Qx4K7cTkDVrbI3HK5UJm0C7f/view?usp=sharing,,,
+GIR2SIT,GI & Reasoning Test 2,Reasoning,30,35,2,-0.5,60,30,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/11M6WaoDFGE06GOxjZTM2iDO8wIQs_FrW/view?usp=sharing,,,
+GIR3SIT,GI & Reasoning Test 3,Reasoning,30,35,2,-0.5,60,30,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1Jz7og1Sd6Q0aWjk4X8LXA9DWxOYd1UAy/view?usp=sharing,,,
+BN1SIT,Basic Numeracy Test 1,Maths,30,35,2,-0.5,60,30,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1VLSDgWGoJ1A_QjWuo2qTBfMrX6tXWSR1/view?usp=sharing,,,
+BN2SIT,Basic Numeracy Test 2,Maths,30,35,2,-0.5,60,30,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1_i8XcwFkA7hIyqRcFmMezpgkwbW5qiOE/view?usp=sharing,,,
+BN2SIT,Basic Numeracy Test 3,Maths,30,35,2,-0.5,60,30,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1NxZPVbKJUdxxGCl7w2Kjjj_aSgvPkZbb/view?usp=drive_link,,,
+EM1SIT,Engineering Mathematics Test 1,Engineering Mathemtics & Signal Fundamentals,30,35,2,-0.5,60,30,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1hBR5U69yo2YQvU8WEkwCIxVbPHGp1tjz/view?usp=sharing,,,
+EM2SIT,Engineering Mathematics Test 2,Engineering Mathemtics & Signal Fundamentals,30,35,2,-0.5,60,30,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1EX5jKz1G2I024YGtcJLRYbIxi7XhqlJd/view?usp=sharing,,,
+EM3SIT,Engineering Mathematics Test 3,Engineering Mathemtics & Signal Fundamentals,30,35,2,-0.5,60,30,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1MmqbdtRgnMwgrtSz0UMPAZ-0mY5CeGyR/view?usp=sharing,,,
+EM4SITFree,Engineering Mathematics ,Engineering Mathemtics & Signal Fundamentals,10,15,2,-0.5,20,7,YES,free,jkpsi-telecom,,,,
+ED1SIT,"ED, Analog Circuits & Network Theory Test 1
+","Electronic Devices, Analog Circuits & Network Theory
+",30,35,2,-0.5,60,25,NO,paid,jkpsi-telecom,,,,
+ED2SIT,"ED, Analog Circuits & Network Theory Test 2
+","Electronic Devices, Analog Circuits & Network Theory
+",30,35,2,-0.5,60,25,NO,paid,jkpsi-telecom,,,,
+ED3SIT,"ED, Analog Circuits & Network Theory Test 3
+","Electronic Devices, Analog Circuits & Network Theory
+",30,35,2,-0.5,60,25,NO,paid,jkpsi-telecom,,,,
+DE1SIT,Digital Electronics Test 1,Digital Electronics & Microprocessors,30,35,2,-0.5,60,25,NO,paid,jkpsi-telecom,,,,
+DE2SIT,Digital Electronics Test 2,Digital Electronics & Microprocessors,30,35,2,-0.5,60,25,NO,paid,jkpsi-telecom,,,,
+DE3SIT,Digital Electronics Test 3 ,Digital Electronics & Microprocessors,30,35,2,-0.5,60,25,NO,paid,jkpsi-telecom,,,,
+CS1SIT,Communication System Test 1,Communication System,30,35,2,-0.5,60,25,NO,paid,jkpsi-telecom,,,,
+CS2SIT,Communication System Test 2,Communication System,30,35,2,-0.5,60,25,NO,paid,jkpsi-telecom,,,,
+CS3SIT,Communication System Test 3,Communication System,30,35,2,-0.5,60,25,NO,paid,jkpsi-telecom,,,,
+CSNS1SIT,CS & Networking Systems Test 1 ,Computer Science & Networking Systems,30,35,2,-0.5,60,25,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1nrUuBLpF3tzy9NBmy4A0fbmyvtaUyB17/view?usp=sharing,,,
+CSNS2SIT,CS & Networking Systems Test 2,Computer Science & Networking Systems,30,35,2,-0.5,60,25,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1UAJG6EUbg7uH3-vH6BjcBe_MGbneyyly/view?usp=sharing,,,
+CSNS3SIT,CS & Networking Systems Test 3,Computer Science & Networking Systems,30,35,2,-0.5,60,25,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1X_aoAwMiOc6qWEu38_q1n6mEJetDUASd/view?usp=sharing,,,
+CSLF1SIT,Cyber Security & Legal Framework Test 1,Cyber Security & Legal Framework,30,35,2,-0.5,60,25,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1aWi9Ziip_kQVSTf9cNkAkt4sY0S2_MQ9/view?usp=sharing,,,
+CSLF2SIT,Cyber Security & Legal Framework Test 2 ,Cyber Security & Legal Framework,30,35,2,-0.5,60,25,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1bpjflgh7lk8U-BNu2KkbjvnRb4tRaaEf/view?usp=sharing,,,
+CSLF3SIT,Cyber Security & Legal Framework Test 3,Cyber Security & Legal Framework,30,35,2,-0.5,60,25,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1JGWPSCTqfkWBLt93oEy0TFP9hwVJMizj/view?usp=sharing,,,
+ITG1SIT,IT Systems & e-Governance Test 1 ,IT Systems & e-Governance,30,35,2,-0.5,60,25,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1B1WZegArRgKUmIIV4TSjFfGykPLn_KNa/view?usp=sharing,,,
+ITG2SIT,IT Systems & e-Governance Test 2,IT Systems & e-Governance,30,35,2,-0.5,60,25,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1xQYNgvxc7ioQuDKpkvw7HLqxapmjfAs6/view?usp=sharingg,,,
+ITG3SIT,IT Systems & e-Governance Test 3 ,IT Systems & e-Governance,30,35,2,-0.5,60,25,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/19zSXz1A01yhrsfNOPgQgz6fQP_6yv0-y/view?usp=sharing,,,
+DBMS1SIT,Database Management Systems Test 1 ,Database Management Systems,30,35,2,-0.5,60,25,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1QwBZ0UekaxXn_9Ox6YzY43hV-HIkLIEY/view?usp=sharing,,,
+DBMS2SIT,Database Management Systems Test 2,Database Management Systems,30,35,2,-0.5,60,25,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1AgRoGAPNa7UeKcZDFtGhrpk8F1_jsxgg/view?usp=sharing,,,
+DBMS3SIT,Database Management Systems Test 3,Database Management Systems,30,35,2,-0.5,60,25,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1bFNnqrKy6a5cYmR6ThFw2B3d84h5_jP3/view?usp=sharing,,,
+IOT1SIT," IoT, Embedded Systems Test 1 "," IoT, Embedded Systems & Mechatronics",30,35,2,-0.5,60,25,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1x7VrI-MYvPhu-Dt07JrF9Km-1Nfatq5h/view?usp=sharing,,,
+IOT2SIT," IoT, Embedded Systems Test 2 "," IoT, Embedded Systems & Mechatronics",30,35,2,-0.5,60,25,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1UAwntCAjJtfBsmoW5syfxx41HIFlcdEG/view?usp=sharing,,,
+IOT3SIT," IoT, Embedded Systems Test 3 "," IoT, Embedded Systems & Mechatronics",30,35,2,-0.5,60,25,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1wDzmP0xRdyKqskuWnzYh5dXhZHk5sbX4/view?usp=sharing,,,
+AI1SIT,"AI, DS and Automation Test 1 ","Artificial Intelligence, Data Science & Automation
+",30,35,2,-0.5,60,25,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1GgGSKH_4w1ogbTLUnLWtvEl6p4tAu7i2/view?usp=drive_link,,,
+AI2SIT,"AI, DS and Automation Test 2
+","Artificial Intelligence, Data Science & Automation
+",30,35,2,-0.5,60,25,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1_yYK-I0BHuRGA0DN8BevOpdOmrUpgUik/view?usp=sharing,,,
+AI3SIT,"AI, DS and Automation Test 3 ","Artificial Intelligence, Data Science & Automation
+",30,35,2,-0.5,60,25,YES,paid,jkpsi-telecom,https://drive.google.com/file/d/1n0afTJKmZ_plNidKyZtXEMKFxuDiI0Od/view?usp=sharing,,,
+His1,Sources Of History,History,30,35,1,-0.25,30,25,YES,paid,Historyofjk,,,,
+His2,Pre History,History,30,35,1,-0.25,30,25,YES,paid,Historyofjk,,,,
+His3,Ancient History Of J&K,History,30,35,1,-0.25,30,25,YES,paid,Historyofjk,,,,
+His4,Medieval History Of J&K,History,30,35,1,-0.25,30,25,YES,paid,Historyofjk,,,,
+His5,Modern History Of J&K,History,30,35,1,-0.25,30,25,YES,paid,Historyofjk,,,,
+His6,Travellers & Scholors,History,30,35,1,-0.25,30,25,YES,paid,Historyofjk,,,,
+His7,Technological Advancements,History,30,35,1,-0.25,30,25,YES,paid,Historyofjk,,,,
+His8,Art & Culture,History,30,35,1,-0.25,30,25,YES,paid,Historyofjk,,,,
+GJK1,Weather & Climate Of J&K,Geography Of J&K,30,35,1,-0.25,30,25,YES,paid,Geography Of JK,,,,
+GJK2,Crops Of J&K,Geography Of J&K,30,35,1,-0.25,30,25,YES,paid,Geography Of JK,,,,
+GJK3,Soil Of J&K,Geography Of J&K,30,35,1,-0.25,30,25,YES,paid,Geography Of JK,,,,
+GJK4,Physiography Of J&K,Geography Of J&K,30,35,1,-0.25,30,25,YES,paid,Geography Of JK,,,,
+GJK5,Rivers Of J&K,Geography Of J&K,30,35,1,-0.25,30,25,YES,paid,Geography Of JK,,,,
+GJK6,Lakes Of J&K,Geography Of J&K,30,35,1,-0.25,30,25,YES,paid,Geography Of JK,,,,
+GJK7,Flora & Fauna Of J&K,Geography Of J&K,30,35,1,-0.25,30,25,YES,paid,Geography Of JK,,,,
+GJK8,Tourist Places Of J&K,Geography Of J&K,30,35,1,-0.25,30,25,YES,paid,Geography Of JK,,,,
+GJK9,Mountain Ranges Of J&K,Geography Of J&K,30,35,1,-0.25,30,25,YES,paid,Geography Of JK,,,,
+GJK10,Passes Of J&K,Geography Of J&K,30,35,1,-0.25,30,25,YES,paid,Geography Of JK,,,,
+GJK11,Transport & Communication,Geography Of J&K,30,35,1,-0.25,30,25,YES,paid,Geography Of JK,,,,
+PJK1,J&K Reorganisation Act,Polity Of J&K,30,35,1,-0.25,30,25,YES,paid,Polity Of JK,,,,
+PJK2,Legislative Assembly,Polity Of J&K,30,35,1,-0.25,30,25,YES,paid,Polity Of JK,,,,
+PJK3,Panchayat,Polity Of J&K,30,35,1,-0.25,30,25,YES,paid,Polity Of JK,,,,
+PJK4,Block Dev Councils,Polity Of J&K,30,35,1,-0.25,30,25,YES,paid,Polity Of JK,,,,
+PJK5,High Court,Polity Of J&K,30,35,1,-0.25,30,25,YES,paid,Polity Of JK,,,,
+PJK6,PMs and CMs,Polity Of J&K,30,35,1,-0.25,30,25,YES,paid,Polity Of JK,,,,
+ED1SITFree,Electronic Devices," Electronic Devices, Analog Circuits 
+& Network Theory",10,10,2,-0.5,20,4,YES,free,jkpsi-telecom,,,,02/08/2026 05:43:56
+DE01SIT,Digital Electronics Test 1, Digital Electronics,20,25,2,-0.5,40,18,YES,paid,jkpsi-telecom,,,,02/08/2026 05:43:56
+MP1SIT,Microprocessors Test 1,Microprocessors,20,25,2,-0.5,40,18,YES,paid,jkpsi-telecom,,,,
+CSUltimate1,Cyber Security & Legal Framework Ultimate Final Test,Cyber Security & Legal Framework,5,10,2,-0.5,10,7,YES,paid,jkpsi-telecom,,,,07/08/2026 05:42:21
+ITEgovUltimate1,IT Systems & e-Governance Ultimate Test,IT Systems & e-Governance,5,10,2,-0.5,10,7,YES,paid,jkpsi-telecom,,,,07/08/2026 05:42:16
+ENG1SIT,General English Ultimate Test,General English & Communication Skills,5,10,2,-0.5,10,7,YES,paid,jkpsi-telecom,,,,07/08/2026 05:42:24
+BN2807,Basic Numeracy Ultimate Test,Maths,5,10,2,-0.5,10,7,YES,paid,jkpsi-telecom,,,,07/08/2026 05:42:27
+JKPSI2907,JKPsi Telecom Full Length Test 1,Full Length,100,120,2,-0.5,200,110,YES,paid,jkpsi-telecom,,,,
+GIRUT2907,GI & Reasoning Ultimate Test,Reasoning,5,10,2,-0.5,10,7,YES,paid,jkpsi-telecom,,,,
+JKGK2907,UT Specific GK Ultimate Test,GK with Special Reference to J&K UT,5,10,2,-0.5,10,7,YES,paid,jkpsi-telecom,,,,
+NT3007,Network Theory Test 1,Network Theory,20,25,2,-0.5,40,24,YES,paid,jkpsi-telecom,,,,02/08/2026 05:43:59
+CCE012025GS,JKPSC CCE Prelims 2025 ,General Studies,100,120,2,-0.5, ,120,YES,paid,jkpsc-cce,,	jkpsc-cce,,02/08/2026 05:44:01
+MP2SIT508,Microprocessors Test 2,Microprocessors,20,25,2,-0.5,40,24,YES,paid,jkpsi-telecom,,,,
+ JKUT2SIT509 ,UT Specific GK Test-4,GK with Special Reference to J&K UT,20,25,2,-0.5,40,24,YES,paid,jkpsi-telecom,,,,
+NT0608SIT,Network Theory Test 2,NETwork Theory,20,25,2,-0.5,40,24,YES,paid,jkpsi-telecom,,,,
+JKPSI0908,JKPsi Telecom Full Length Test 1,Full Length,100,120,2,-0.5,200,110,NO,paid,jkpsi-telecom,,,,
+JKPSI1608,JKPsi Telecom Full Length Test 2,Full Length,100,120,2,-0.5,200,110,YES,paid,jkpsi-telecom,,,,
+JKPSI2308,JKPsi Telecom Full Length Test 3,Full Length,100,120,2,-0.5,200,110,NO,paid,jkpsi-telecom,,,,
+JKPSI3008,JKPsi Telecom Full Length Test 4,Full Length,100,120,2,-0.5,200,110,NO,paid,jkpsi-telecom,,,,
+JKPSI0609,JKPsi Telecom Full Length Test 5,Full Length,100,120,2,-0.5,200,110,NO,paid,jkpsi-telecom,,,,
+JKPSI1309,JKPsi Telecom Full Length Test 6,Full Length,100,120,2,-0.5,200,110,NO,paid,jkpsi-telecom,,,,
+JKPSI2009,JKPsi Telecom Full Length Test 7,Full Length,100,120,2,-0.5,200,110,NO,paid,jkpsi-telecom,,,,
+JKPSI2709,JKPsi Telecom Full Length Test 8,Full Length,100,120,2,-0.5,200,110,NO,paid,jkpsi-telecom,,,,
+JKPSI0410,JKPsi Telecom Full Length Test 9,Full Length,100,120,2,-0.5,200,110,NO,paid,jkpsi-telecom,,,,
+JKPSI1110,JKPsi Telecom Full Length Test 10,Full Length,100,120,2,-0.5,200,110,NO,paid,jkpsi-telecom,,,,
+JKPSI1810,JKPsi Telecom Full Length Test 11,Full Length,100,120,2,-0.5,200,110,NO,paid,jkpsi-telecom,,,,
+JKPSI2510,JKPsi Telecom Full Length Test 12,Full Length,100,120,2,-0.5,200,110,NO,paid,jkpsi-telecom,,,,
+JKPSI0111,JKPsi Telecom Full Length Test 13,Full Length,100,120,2,-0.5,200,110,NO,paid,jkpsi-telecom,,,,02/08/2026 05:42:39
+JKPSI0811,JKPsi Telecom Full Length Test 14,Full Length,100,120,2,-0.5,200,110,NO,paid,jkpsi-telecom,,,,
+JKPSI1511,JKPsi Telecom Full Length Test 15,Full Length,100,120,2,-0.5,200,110,NO,paid,jkpsi-telecom,,,,
+IPSIT0708,Indian Polity,Indian Polity,20,15,2,-0.5,40,34,YES,paid,jkpsi-telecom,,,,
+DMSIT0708,Disaster Management,Disaster Management,20,15,2,-0.5,40,34,YES,paid,jkpsi-telecom,,,,
+ACSIT0808,Analog Circuit Test 1,Ananlog Circuit,10,10,2,-0.5,20,15,YES,paid,jkpsi-telecom,,,08/08/2026,
+ACSIT0809,Analog Circuit Test 2,Ananlog Circuit,10,10,2,-0.5,20,15,YES,paid,jkpsi-telecom,,,,
+ACSIT0810,Analog Circuit Test 3,Ananlog Circuit,10,10,2,-0.5,20,15,YES,paid,jkpsi-telecom,,,,
+DBMSUTSIT,DBMS Ultimate Test,DBMS,5,10,2,-0.5,10,7,YES,paid,jkpsi-telecom,,,08/08/2026,
+DMSIT0810,Analog Circuit Test 2,Ananlog Circuit,20,15,2,-0.5,40,34,NO,paid,jkpsi-telecom,,,,
+EDSIT1108,Electronic Devices Test 1,Electronic Devices,10,10,2,-0.5,20,8,YES,paid,jkpsi-telecom,,,10/08/2026,
+EDSIT1109,Electronic Devices Test 2,Electronic Devices,10,10,2,-0.5,20,8,NO,paid,jkpsi-telecom,,,,02/08/2026 05:42:42
+EDSIT1110,Electronic Devices Test 3,Electronic Devices,10,10,2,-0.5,20,8,NO,paid,jkpsi-telecom,,,,
+DESIT1608,Digital Electronics Test 2,Digital Electronics,10,10,2,-0.5,20,8,YES,paid,jkpsi-telecom,,,13/08/2026,
+DESIT1609,Digital Electronics Test 3 ,Digital Electronics,10,10,2,-0.5,20,8,YES,paid,jkpsi-telecom,,,15/08/2026,
+DESIT1610,Digital Electronics Ultimate Test,Digital Electronics,10,10,2,-0.5,20,8,NO,paid,jkpsi-telecom,,,,
+MPSIT1208,Microprocessor Test 3,Microprocessors,10,10,2,-0.5,20,8,YES,paid,jkpsi-telecom,,,11/08/2026,
+MPSIT1208,Microprocessor Test 4,Microprocessors,10,10,2,-0.5,20,8,YES,paid,jkpsi-telecom,,,,
+HJK1308SIT,History Of J&K ,History,20,20,2,-0.5,40,30,YES,paid,jkpsi-telecom,,,12/08/2026,
+GJK1308SIT,Geography Of J&K,Geography,10,10,2,-0.5,20,8,YES,paid,jkpsi-telecom,,,12/08/2026,
+JKR1408SIT,J&K Reorganisation Act,J&K Reorganisation Act,10,10,2,-0.5,20,8,YES,paid,jkpsi-telecom,,,13/08/2026,
+NT1508SIT,Network Theory Test 3,Network Theory,10,10,2,-0.5,20,8,YES,paid,jkpsi-telecom,,,14/08/2026,
+IE1608SIT,Indian Economy,Indian Economy,10,10,2,-0.5,20,8,YES,paid,jkpsi-telecom,,,15/08/2026,02/08/2026 05:42:50
+AB1008,Accounting Equation & Journal Entry,Accountancy & Bookkeeping,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,10/08/2026,02/08/2026 05:42:49
+LE1108,Linear Equation in two variables,Mathematics,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,10/08/2026,
+TA1208,Tenses And Articles,English,10,10,1,-0.25,10,7,YES,paid,jkssb-faa,,,10/08/2026,
+HisJKFAA1308,Dogra Rule,History,10,10,1,-0.25,10,7,YES,paid,jkssb-faa,,,11/08/2026,
+GS1508FAA,Motion & Electricity,Physics,20,20,1,-0.25,20,14,YES,paid,jkssb-faa,,,12/08/2026,
+CF1508FAA,Computer Fundamentals & Hardwares,Computer Awareness,10,10,1,-0.25,10,7,YES,paid,jkssb-faa,,,13/08/2026,
+Statsfaa1709,Measure Of Central Tendency,Stats,10,10,1,-0.25,10,7,YES,paid,jkssb-faa,,,14/08/2026,
+COM1808,Analog and Digital Communication,Communication System,10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,15/08/2026,
+DM1908,Disaster Management & Climate Change,Disaster Management,10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,16/08/2026,
+GSHalfFreeSIT1,Part 1 GS Full Length Test,General Science,30,40,2,-0.5,60,45,YES,free,jkpsi-telecom,,,17/08/2026,
+Part1SIT2008,Part 1 GS Full Length Test 1,General Science,30,40,2,-0.5,60,35,YES,paid,jkpsi-telecom,,,18/08/2026,23/08/2026
+IDAFAA1808,Indifference Curve And Demand Analysis,General Economics,10,10,1,-0.25,10,7,YES,paid,jkssb-faa,,,14/08/2026,02/08/2026 05:43:32
+LPTB1808Faa,Ledger Posting And Trial Balance,Accountancy & Bookkeeping,10,10,1,-0.25,10,7,YES,paid,jkssb-faa,,,14/08/2026,02/08/2026 05:43:33
+PPL2008Faa,Profit And Loss & Percentage,Maths,10,10,1,-0.25,10,7,YES,paid,jkssb-faa,,,14/08/2026,
+VSA2108FAA,Vocabulary: Synonyms And Antonyms,General English,10,10,1,-0.25,10,7,YES,paid,jkssb-faa,,,14/08/2026,
+GJK2208,Geography Of J&K,GK - J&K Special,10,10,1,-0.25,10,7,YES,paid,jkssb-faa,,,14/08/2026,
+ACAFP2408,"Analog Communication: AM, FM, PM",Communication System,10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,16/08/2026,02/08/2026 05:43:40
+CETMN2408,"Chemical Equations & Metal, Non Mentals",Science,10,10,1,-0.25,10,7,YES,paid,jkssb-faa,,,14/08/2026,02/08/2026 05:43:43
+WABCS24008,Web App Basic & Client Server Architecture,IT Systems & e-Governance,10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,16/08/2026,23/08/2026
+SQCS2508,"Sampling, Quantization, PCM, DPCM, DM",Communication System,10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,16/08/2026,24/08/2026
+MWME2508,MS Word & MS Excel,Computer Knowledge,10,10,1,-0.25,10,7,YES,paid,jkssb-faa,,,14/08/2026,24/08/2026 16:21:34
+CCFIG2508,"Cloud Computing Fundamentals, Data Centers, Backup & Recovery",IT Systems & e-Governance,10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,16/08/2026,25/08/2026
+DMAFPQ2608,"Digital Modulation:ASK, FSK, PSK, QPSK",Communication System,10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,16/08/2026,25/08/2026
+MOD2608,Measure Of Dispersion,Stats,10,10,1,-0.25,10,7,YES,paid,jkssb-faa,,,24/08/2026,26/08/2026 16:21:34
+GISIA2608,"Govt IT Systems, Interoperability & API",IT Systems & e-Governance,10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,26/08/2026,26/08/2026
+EDCPC27008,Error Detection & Correction: Parity & CRC Basics,Communication System,10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,26/08/2026,26/08/2026
+AICG2708,"Fundaments & Components, AI System in Engineering and Govt","Artificial Intelligence, Data Science & Automation",10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,26/08/2026,26/08/2026
+NIAGDP2708,National Income & GDP,Economics,10,10,1,-0.25,10,7,YES,paid,jkssb-faa,,,24/08/2026,26/08/2026 16:21:34
+SNRBNR2808,"SNR, BNR Concepts",Communication System,10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,26/08/2026,26/08/2026
+BD2808,Big data and analytics in law enforcement,"Artificial Intelligence, Data Science & Automation",10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,26/08/2026,26/08/2026
+BRSA2808,Bank Reconcilation Statement,Accountancy & Bookkeeping,10,10,1,-0.25,10,7,YES,paid,jkssb-faa,,,24/08/2026,26/08/2026 16:21:34
+RANDP2808,Ration & Proportion & Average,Maths,10,10,1,-0.25,10,7,YES,paid,jkssb-faa,,,29/08/2026,29/08/2026 16:21:34
+APT2908,Antennas: Parameter & Types,Communication System,10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,29/08/2026,29/08/2026
+ALECAI2908,Advantages limitation & Ethical Concern Of AI,"Artificial Intelligence, Data Science & Automation",10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,29/08/2026,29/08/2026
+WPGSW3008,"Wave Propagation: Ground, Sky, Space wave",Communication System,10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,29/08/2026,29/08/2026
+OFSC3108,Optical Fiber & Satelite Communication,Communication System,10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,02/08/2026,31/08/2026
+OSITCP0109,OSI/TCP Models,Computer Science & Networking Systems,10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,02/08/2026,01/09/2026
+IPSC0109,"IP Addressing, Subnetting and CIDR",Computer Science & Networking Systems,10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,02/08/2026,01/09/2026
+COMP0109,"Comprehension with blanks to be filled in with
+i. Phrases . Pronouns
+iii. Homonyms / homophones. ",General English,10,10,1,-0.25,10,7,YES,paid,jkssb-faa,,,29/08/2026,01/09/2026 16:21:34
+JKR1408FAA,J&K Reorganisation Act,J&K Reorganisation Act,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,13/08/2026,01/09/2026
+WMC0109,Wireless & Mobile Communication ,Communication System,10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,02/08/2026,02/09/2026
+RIPOSPF0109,Routing Protocols: RIP & OSPF(Basics),Computer Science & Networking Systems,10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,02/08/2026,02/09/2026
+Nutri0109,"Nutrition and its types, Respiration, Transportation of water, food and
+minerals in plants.",Science,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,02/09/2026,02/09/2026 14:14:27
+STSIT0209,Switching Techniques,Computer Science & Networking Systems,10,20,2,-0.5,20,13,YES,paid,jkpsi-telecom,,,03/08/2026,03/09/2026
+CAFAA0209,"Current Affairs Focusing On Science, 
+Missions and International Events",Science,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,03/09/2026,03/09/2026 14:14:27
+CASIT0101,"Current Affairs Focusing On Science, 
+Missions and International Events",Science,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,03/09/2026,03/09/2026 14:14:27
+EMN2G0509,Evolution Of Mobile Networks: 2G to 5g,Communication System,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,03/09/2026,05/09/2026 14:14:27
+NDHRS0509,"Network Devices: Hub, Router, Switch",Computer Science & Networking Systems,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,03/09/2026,05/09/2026 14:14:27
+WifiBN0509,"Wireless Standards: Wifi(802.11 Family) Bluetooth, NFC",Computer Science & Networking Systems,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,05/09/2026,05/09/2026 14:14:27
+PFSIT0509,"Programming Fundamentals: Logic Building, Data Types, Loops, Functions",Computer Science & Networking Systems,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,06/09/2026,06/09/2026 14:14:27
+MAT06009,"Multiple Access Techniques: FDMA, TDMA, CDMA, OFDMA",Communication System,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,06/09/2026,06/09/2026 14:14:27
+MSPDF0609,"MS Access, MS Powerpoint, PDF
+Internet and E-mail",Computer Knowledge,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,02/09/2026,06/09/2026 14:14:27
+PSMC0609,"Primary and secondary data.
+Methods of collecting Primary and Secondary Data
+Preparation of questionaires ",Stats,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,02/09/2026,06/09/2026 14:14:27
+TFAA02Full,FAA Full Length Test 1,Finance Account Assistant,120,120,1,-0.25,120,60,YES,paid,jkssb-faa,,,,06/09/2026
+OOPS1009,Object Oriented Programming,Computer Science & Networking Systems,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,06/09/2026,07/09/2026 14:14:27
+IAP0709,Idioms & Phrases,General English,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,02/09/2026,08/09/2026 14:14:27
+LAD0709,Limits and Derrivatives,Maths,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,02/09/2026,08/09/2026 14:16:27
+VITFAA0909,"Vital Statistics- Measures of fertility, Crude fertility rates, specific fertility
+rates, gross and net reproduction rates., Measures of Mortality ",Stats,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,09/09/2026,09/09/2026 14:16:27
+Prep0909Faa,Use of Preposition,General English,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,10/09/2026,10/09/2026 15:16:27
+STBC0909,Set Theory: Basic Concept and Applications,Maths,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,11/09/2026,11/09/2026 14:16:27
+RBIR10909,Role Of RBI,Economics,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,12/09/2026,12/09/2026 14:16:27
+APV0909,Active And Passive Voice,General English,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,13/09/2026,15/09/2026 14:16:27
+NSCDE0909,Number System & Conversions,Digital Electronics,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,09/09/2026,09/09/2026 14:14:27
+DSA0909,Data Structure & Algorithms Conceptual,Computer Science & Networking Systems,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,09/09/2026,09/09/2026 14:45:56
+OSSIT0909,"Operating System: Process, Memory & File System",Computer Science & Networking Systems,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,09/09/2026,09/09/2026 19:14:27
+CTRPM1009,"Cyber Threat - Ransomeware, Phishing, Malware",Cyber Security & Legal Framework,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,09/09/2026,10/09/2026 19:14:27
+NSFIDS1009,"Network Security - Firewalls, IDS/IPS",Cyber Security & Legal Framework,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,09/09/2026,10/09/2026 20:14:27
+LGBA1009,Logic gates & Boolean Algebra,Digital Electronics,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,09/09/2026,10/09/2026 20:14:27
+AACSIT1109,Authentication And Access Control,Cyber Security & Legal Framework,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,09/09/2026,11/09/2026 20:14:27
+HTTPSSSL1109,"Security Protocols: HTTPS, SSL/TLS(Basic Concepts)",Cyber Security & Legal Framework,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,09/09/2026,12/09/2026 20:14:27
+KMAPS1109,K Maps,Digital Electronics,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,09/09/2026,12/09/2026 20:14:27
+COMB1109,Combinational Circuits,Digital Electronics,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,09/09/2026,12/09/2026 20:14:27
+SEQS1109,Sequential Circuits,Digital Electronics,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,09/09/2026,13/09/2026 20:14:27
+DBMS41209,DBMS Test 4,Database Management Systems,30,30,2,-0.5,60,44,YES,paid,jkpsi-telecom,,,09/09/2026,14/09/2026 20:14:27
+CRPTO1409,"Cryptography: Symmetric and Asymmetric Encryption, Hashing, Digital Signature",Digital Electronics,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,09/09/2026,15/09/2026 20:14:27
+FMFS1409,Financial Management/ Financial Statements,Accountancy,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,13/09/2026,15/09/2026 14:16:27
+Partner1509,Partnership Accounts,Accountancy,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,13/09/2026,15/09/2026 16:16:27
+PLABS1609,Profit Loss account and Balance Sheet,Accountancy,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,13/09/2026,16/09/2026 16:16:27
+Social1709,"Concept of Social Accounting, Social Audit, and
+ Cash Based Single Entry System of Accounting.",Accountancy,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,13/09/2026,16/09/2026 16:16:27
+8085SIT1709,8085/8086 Architecture and instruction set basic,Microprocessors,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,09/09/2026,16/09/2026 20:14:27
+8085SIT1809,8085/8086 Architecture and instruction set basic,Microprocessors,10,10,2,-0.5,20,12,YES,free,jkpsi-telecom,,,09/09/2026,16/09/2026 20:14:27
+Dhobi1609,Barber/Dhobi/Jr. Dhobi 15 Sept 2026,General,120,120,1,-0.25,120,90,YES,free,jkssb-pyqs,,,,17/09/2026
+AMIT1909,"Adressing modes, Interupts and timimg",Microprocessors,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,09/09/2026,19/09/2026 20:14:27
+ITACT1909,"IT Act, 2000 and cyber offences relevant to policing",Cyber Security & Legal Framework,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,09/09/2026,19/09/2026 21:14:27
+DSADM1909,Database System Architecture and data models,DBMS,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,09/09/2026,19/09/2026 22:14:27
+80511909,8051 Microcontrollor Basics,Microprocessors,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,09/09/2026,19/09/2026 22:14:27
+PFMS1909,Public Finance Management System,Accountancy,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,13/09/2026,19/09/2026 16:16:27
+CADA1909,Cost Accounting And Developements in Accounting,Accountancy,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,13/09/2026,19/09/2026 18:16:27
+ECO2009,General Economics,Economy,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,20/09/2026,20/09/2026 18:16:27
+SIEMaths2009,Mathematical Abilities,Maths,15,13,2,-0.5,30,17,YES,free,jkpsi-executive,,,,19/09/2026
+GIRSIE2009,General Intelligence & Reasoning:,Reasoning,15,13,2,-0.5,30,17,YES,free,jkpsi-executive,,,,19/09/2026 17:33:04
+GS2009,General Science,Science,10,10,1,-0.25,10,8,YES,free,jkssb-faa,,,13/09/2026,19/09/2026 16:16:27
+JKPSCCCE2022,JKPSC CCE Prelims 2022,General Studies,100,120,2,-0.33,200,60,YES,paid,jkpsc-cce,,,,19/09/2026
+ARM2009,Introduction to ARM architecture,Microprocessors,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,09/09/2026,20/09/2026 22:14:27
+FAA2024,Finance Account Assistant 2024,General ,120,120,1,-0.25,120,80,YES,free,jkssb-pyqs,,,,20/09/2026 17:07:53
+JKPSI2017,JKPSI Executitive 2017,General ,120,120,1,-0.25,120,80,YES,free,jkssb-pyqs,,,,19/09/2026
+SKAUSTAC20092026,Skaust Account Assistant 20 Sept 2026,General ,100,100,1,-0.25,100,80,YES,free,jkssb-pyqs,,,,20/09/2026
+RDSQL2009,Relational Database and SQL Concepts,DBMS,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,09/09/2026,20/09/2026 22:14:27
+MEM2009,Memory interfacing (conceptual),Microprocessors,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,21/09/2026,21/09/2026 22:14:27
+DDN2109,Database design and normalization,DBMS,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,21/09/2026,23/09/2026 22:14:27
+IOTAM2M2209,IOT Architecture and M2M Communication,IOT & Mechatronics,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,21/09/2026,22/09/2026 22:14:27
+IC2109SIT,Integrity Constraints,DBMS,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,21/09/2026,23/09/2026 22:14:27
+SICI2309 ,Simple and compound interest,Maths,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,13/09/2026,22/09/2026 16:16:27
+LITV2209, Linear Equation with Two Variables,Maths,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,13/09/2026,23/09/2026 16:16:27
+IPSPSPFR2209,"Indian Polity: Preamble, Fundamental Rights & 
+Duties, Directive Principles of State Policy",Indian Polity,10,10,2,-0.5,20,12,YES,free,jkpsi-telecom,,,21/09/2026,23/09/2026 22:14:27
+TPCC2020,Transection Processing and concurrency control,DBMS,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,21/09/2026,24/09/2026 22:14:27
+ERTOS2020,Embedded and Real Time System,IOT & Mechatronics,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,21/09/2026,25/09/2026 22:14:27
+SIFO2020,Storage Indexing and file organisation,DBMS,10,10,2,-0.5,20,12,YES,paid,jkpsi-telecom,,,21/09/2026,25/09/2026 22:14:27
+PC2020,"Permutation, Combination & Binomial Theorm",Maths,10,10,1,-0.25,10,8,YES,paid,jkssb-faa,,,13/09/2026,25/09/2026 16:16:27
