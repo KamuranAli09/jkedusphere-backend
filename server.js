@@ -6,7 +6,7 @@ const apiRouter = require('./routes/api');
 
 const app = express();
 app.use(cors());
-app.use(express.json());
+app.use(express.json({ type: ['application/json', 'text/plain'] }));
 
 mongoose.connect(process.env.MONGODB_URI)
   .then(() => console.log('✅ MongoDB connected'))
