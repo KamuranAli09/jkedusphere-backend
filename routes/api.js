@@ -6,6 +6,7 @@ const questionCtrl = require('../controllers/questionController');
 const akCtrl = require('../controllers/akController');
 const submissionCtrl = require('../controllers/submissionController');
 const purchaseCtrl = require('../controllers/purchaseController');
+const userCtrl = require('../controllers/userController');
 
 router.get('/', async (req, res) => {
   const { action } = req.query;
@@ -43,6 +44,10 @@ router.get('/', async (req, res) => {
         return res.json(await akCtrl.getAnswerKeyAK(req.query.examID, req.query.version));
       case 'getSubmissionsCount':
         return res.json(await submissionCtrl.getSubmissionsCount());
+              case 'getAllUsers':
+        return res.json(await userCtrl.listUsers(req.query.search));
+      case 'listSubmissions':
+        return res.json(await submissionCtrl.listSubmissions({ page: req.query.page, limit: req.query.limit, email: req.query.email, testId: req.query.testId }));
       default:
         return res.json({ error: 'Unknown action: ' + (action || 'none') });
     }
@@ -83,6 +88,10 @@ router.post('/', async (req, res) => {
         return res.json(await submissionCtrl.submitTest(req.body));
       case 'recordPurchase':
         return res.json(await purchaseCtrl.recordPurchase(req.body));
+              case 'updateUser':
+        return res.json(await userCtrl.updateUser(req.body));
+      case 'deleteSubmission':
+        return res.json(await submissionCtrl.deleteSubmission(req.body.submissionId));
       default:
         return res.json({ error: 'Unknown POST action: ' + action });
     }

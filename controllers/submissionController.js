@@ -197,5 +197,35 @@ async function getSubmissionsCount() {
   const uniqueEmails = await Submission.distinct('studentEmail');
   return { success: true, total, unique: uniqueEmails.length };
 }
+async function listSubmissions({ page, limit, email, testId }) {
+  page = parseInt(page) || 1;
+  limit = Math.min(parseInt(limit) || 50, 200);
+  const filter = {};
+  if (email) filter.studentEmail = new RegExp(email, 'i');
+  if (testId) filter.testId = testId;
 
-module.exports = { submitTest, getLeaderboard, getPackLeaderboard, getStudentHistory, getSubmissionReview, getWeakAreas, getSubmissionsCount };
+  const total = await Submission.countDocuments(filter);
+  const docs = await Submission.find(filter)
+    .sort({ createdAt: -1 })
+    .skip((page - 1) * limit)
+    .limit(limit)
+    .lean();
+
+  return {
+    success: true, total, page, limit,
+    submissions: docs.map(s => ({
+      submissionId: s.submissionId, testId: s.testId, testName: s.testName,
+      studentName: s.studentName, studentEmail: s.studentEmail, score: s.score,
+      totalMarks: s.totalMarks, percentage: s.percentage, timeTakenSec: s.timeTakenSec,
+      correct: s.correct, wrong: s.wrong, skipped: s.skipped, timestamp: s.createdAt
+    }))
+  };
+}
+
+async function deleteSubmission(submissionId) {
+  if (!submissionId) throw new Error('submissionId required');
+  const result = await Submission.deleteOne({ submissionId });
+  if (result.deletedCount === 0) throw new Error('Submission not found: ' + submissionId);
+  return { success: true, deleted: submissionId };
+}
+module.exports = { submitTest, getLeaderboard, getPackLeaderboard, getStudentHistory, getSubmissionReview, getWeakAreas, getSubmissionsCount, listSubmissions, deleteSubmission };
