@@ -1,13 +1,7 @@
+const crypto = require('crypto');
 const bcrypt = require('bcryptjs');
 const User = require('../models/User');
-const { sendPasswordResetEmail } = require('../utils/mailer');
-
-function generateTempPassword() {
-  const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnpqrstuvwxyz23456789';
-  let pw = '';
-  for (let i = 0; i < 10; i++) pw += chars.charAt(Math.floor(Math.random() * chars.length));
-  return pw;
-}
+const { sendPasswordResetLinkEmail } = require('../utils/mailer');
 
 async function register(body) {
   const email = (body.email || '').toLowerCase().trim();
@@ -56,19 +50,46 @@ async function forgotPassword(email) {
   if (!email) return { success: false, error: 'Email is required.' };
 
   const user = await User.findOne({ email });
-  if (!user) return { success: false, error: 'No account found with this email.' };
+  if (!user) return { success: true, message: 'If an account exists for ' + email + ', a reset link has been sent.' };
 
-  const tempPassword = generateTempPassword();
-  user.passwordHash = await bcrypt.hash(tempPassword, 10);
+  const rawToken = crypto.randomBytes(32).toString('hex');
+  const tokenHash = crypto.createHash('sha256').update(rawToken).digest('hex');
+
+  user.passwordResetToken = tokenHash;
+  user.passwordResetExpiry = new Date(Date.now() + 60 * 60 * 1000);
   await user.save();
 
-  try {
-    await sendPasswordResetEmail(email, user.name || 'Student', tempPassword);
-  } catch (mailErr) {
-    return { success: false, error: 'Could not send email: ' + mailErr.message };
-  }
+  const resetLink = `${process.env.FRONTEND_URL}?resetToken=${rawToken}&email=${encodeURIComponent(email)}`;
 
-  return { success: true, message: 'A new password has been sent to ' + email };
+  sendPasswordResetLinkEmail(email, user.name || 'Student', resetLink)
+    .catch(err => console.error('Failed to send reset email to', email, err.message));
+
+  return { success: true, message: 'If an account exists for ' + email + ', a reset link has been sent.' };
 }
 
-module.exports = { register, login, forgotPassword };
+async function resetPassword(body) {
+  const email = (body.email || '').toLowerCase().trim();
+  const token = String(body.token || '').trim();
+  const newPassword = String(body.newPassword || '');
+
+  if (!email || !token || !newPassword) return { success: false, error: 'Missing email, token, or new password.' };
+  if (newPassword.length < 6) return { success: false, error: 'Password must be at least 6 characters.' };
+
+  const tokenHash = crypto.createHash('sha256').update(token).digest('hex');
+  const user = await User.findOne({
+    email,
+    passwordResetToken: tokenHash,
+    passwordResetExpiry: { $gt: new Date() }
+  });
+
+  if (!user) return { success: false, error: 'This reset link is invalid or has expired. Please request a new one.' };
+
+  user.passwordHash = await bcrypt.hash(newPassword, 10);
+  user.passwordResetToken = undefined;
+  user.passwordResetExpiry = undefined;
+  await user.save();
+
+  return { success: true, message: 'Password updated. You can now sign in.' };
+}
+
+module.exports = { register, login, forgotPassword, resetPassword };
