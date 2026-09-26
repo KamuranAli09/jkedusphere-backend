@@ -15,7 +15,9 @@ router.get('/', async (req, res) => {
       case 'login':
         return res.json(await auth.login(req.query.email, req.query.password));
       case 'forgotPassword':
-        return res.json(await auth.forgotPassword(req.query.email));
+        return res.json(await auth.forgotPassword(req.body.email));
+        case 'resetPassword':
+        return res.json(await auth.resetPassword(req.body));
       case 'getTests':
         return res.json(await testCtrl.getAllTests());
       case 'getTest':
