@@ -90,6 +90,8 @@ router.post('/', async (req, res) => {
         return res.json(await submissionCtrl.submitTest(req.body));
       case 'recordPurchase':
         return res.json(await purchaseCtrl.recordPurchase(req.body));
+        case 'resetPassword':
+        return res.json(await auth.resetPassword(req.body));
               case 'updateUser':
         return res.json(await userCtrl.updateUser(req.body));
       case 'deleteSubmission':
