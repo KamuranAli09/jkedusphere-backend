@@ -1,32 +1,23 @@
-const nodemailer = require('nodemailer');
+const { Resend } = require('resend');
+const resend = new Resend(process.env.RESEND_API_KEY);
 
-const transporter = nodemailer.createTransport({
-  service: 'gmail',
-  auth: {
-    user: process.env.GMAIL_USER,
-    pass: process.env.GMAIL_APP_PASSWORD
-  }
-});
-
-async function sendPasswordResetEmail(toEmail, name, tempPassword) {
-  await transporter.sendMail({
-    from: `"JKEdusphere" <${process.env.GMAIL_USER}>`,
+async function sendPasswordResetLinkEmail(toEmail, name, resetLink) {
+  await resend.emails.send({
+    from: 'JKEdusphere <noreply@jkedusphere.com>',
     to: toEmail,
-    subject: 'JKEdusphere — Your New Password',
+    subject: 'JKEdusphere — Reset Your Password',
     text:
       `Hello ${name},\n\n` +
       `We received a request to reset your JKEdusphere password.\n\n` +
-      `Your new temporary password is: ${tempPassword}\n\n` +
-      `Please sign in with it. You can request another reset anytime if needed.\n\n` +
-      `If you did not request this, please contact us immediately on Telegram: t.me/JKEdusphere\n\n` +
+      `Click this link to set a new password (valid for 1 hour):\n${resetLink}\n\n` +
+      `If you did not request this, you can safely ignore this email — your password will not change.\n\n` +
       `— JKEdusphere Team`
   });
 }
 
-module.exports = { sendPasswordResetEmail };
 async function sendMigrationEmail(toEmail, name, tempPassword) {
-  await transporter.sendMail({
-    from: `"JKEdusphere" <${process.env.GMAIL_USER}>`,
+  await resend.emails.send({
+    from: 'JKEdusphere <noreply@jkedusphere.com>',
     to: toEmail,
     subject: "JKEdusphere — We've Upgraded! Your New Login",
     text:
@@ -41,4 +32,4 @@ async function sendMigrationEmail(toEmail, name, tempPassword) {
   });
 }
 
-module.exports = { sendPasswordResetEmail, sendMigrationEmail };
+module.exports = { sendPasswordResetLinkEmail, sendMigrationEmail };
