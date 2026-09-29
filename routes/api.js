@@ -7,6 +7,7 @@ const akCtrl = require('../controllers/akController');
 const submissionCtrl = require('../controllers/submissionController');
 const purchaseCtrl = require('../controllers/purchaseController');
 const userCtrl = require('../controllers/userController');
+const notesCtrl = require('../controllers/notesController');
 
 router.get('/', async (req, res) => {
   const { action } = req.query;
@@ -50,6 +51,12 @@ router.get('/', async (req, res) => {
         return res.json(await userCtrl.listUsers(req.query.search));
       case 'listSubmissions':
         return res.json(await submissionCtrl.listSubmissions({ page: req.query.page, limit: req.query.limit, email: req.query.email, testId: req.query.testId }));
+              case 'getNotes':
+        return res.json(await notesCtrl.getAllNotes());
+      case 'getAllNotesAdmin':
+        return res.json(await notesCtrl.getAllNotesAdmin());
+      case 'redeemToken':
+        return res.json(await notesCtrl.redeemToken(req.query.token));
       default:
         return res.json({ error: 'Unknown action: ' + (action || 'none') });
     }
@@ -96,6 +103,12 @@ router.post('/', async (req, res) => {
         return res.json(await userCtrl.updateUser(req.body));
       case 'deleteSubmission':
         return res.json(await submissionCtrl.deleteSubmission(req.body.submissionId));
+              case 'verifyPurchase':
+        return res.json(await notesCtrl.verifyPurchase(req.body));
+      case 'saveNote':
+        return res.json(await notesCtrl.saveNote(req.body.note));
+      case 'deleteNote':
+        return res.json(await notesCtrl.deleteNote(req.body.noteId));
       default:
         return res.json({ error: 'Unknown POST action: ' + action });
     }
