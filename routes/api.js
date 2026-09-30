@@ -57,6 +57,8 @@ router.get('/', async (req, res) => {
         return res.json(await notesCtrl.getAllNotesAdmin());
       case 'redeemToken':
         return res.json(await notesCtrl.redeemToken(req.query.token));
+              case 'seedNotes':
+        return res.json(await notesCtrl.seedNotes(req.query.key));
       default:
         return res.json({ error: 'Unknown action: ' + (action || 'none') });
     }
