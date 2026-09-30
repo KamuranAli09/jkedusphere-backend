@@ -149,4 +149,4 @@ async function seedNotes(providedKey) {
   return { success: true, imported: count, notes: results };
 }
 
-module.exports = { getAllNotes, getAllNotesAdmin, saveNote, deleteNote, verifyPurchase, redeemToken };
+module.exports = { getAllNotes, getAllNotesAdmin, saveNote, deleteNote, verifyPurchase, redeemToken, seedNotes };
