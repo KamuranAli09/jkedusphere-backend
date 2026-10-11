@@ -8,6 +8,7 @@ const submissionCtrl = require('../controllers/submissionController');
 const purchaseCtrl = require('../controllers/purchaseController');
 const userCtrl = require('../controllers/userController');
 const notesCtrl = require('../controllers/notesController');
+const packController = require('../controllers/packController');
 
 router.get('/', async (req, res) => {
   const { action } = req.query;
@@ -59,6 +60,11 @@ router.get('/', async (req, res) => {
         return res.json(await notesCtrl.redeemToken(req.query.token));
               case 'seedNotes':
         return res.json(await notesCtrl.seedNotes(req.query.key));
+         case 'getPacks':
+        return res.json(await packController.getAllPacks());
+ 
+      case 'getAllPacksAdmin':
+        return res.json(await packController.getAllPacksAdmin());
       default:
         return res.json({ error: 'Unknown action: ' + (action || 'none') });
     }
@@ -111,6 +117,11 @@ router.post('/', async (req, res) => {
         return res.json(await notesCtrl.saveNote(req.body.note));
       case 'deleteNote':
         return res.json(await notesCtrl.deleteNote(req.body.noteId));
+        case 'savePack':
+        return res.json(await packController.savePack(req.body));
+ 
+      case 'deletePack':
+        return res.json(await packController.deletePack(req.body.packId));
       default:
         return res.json({ error: 'Unknown POST action: ' + action });
     }
