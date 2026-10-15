@@ -18,6 +18,23 @@ async function getAllTests() {
   };
 }
 
+async function getAllTestsAdmin() {
+  const tests = await Test.find({}).lean();
+  return {
+    success: true,
+    tests: tests.map(t => ({
+      testId: t.testId, testName: t.testName, subject: t.subject,
+      examGroup: t.examGroup || t.packId, totalQuestions: t.totalQuestions || 0,
+      durationMinutes: t.durationMinutes || 60, marksCorrect: t.marksCorrect || 1,
+      marksWrong: t.marksWrong || 0, totalMarks: t.totalMarks || 0,
+      passMarks: t.passMarks || 0, access: t.access || 'free',
+      packId: t.packId || '', pdfLink: t.pdfLink || '',
+      active: !!t.active,
+      dateAdded: t.goLiveDate || t.createdAt
+    }))
+  };
+}
+
 async function buildTestPayload(testId, includeAnswers) {
   const cfg = await Test.findOne({ testId }).lean();
   if (!cfg) throw new Error('Test not found: ' + testId);
@@ -95,4 +112,4 @@ async function deleteTest(testId) {
   if (result.deletedCount === 0) throw new Error('Test not found: ' + testId);
   return { success: true, deleted: testId };
 }
-module.exports = { getAllTests, getTest, getTestPractice, saveTest, deleteTest };
+module.exports = { getAllTests, getAllTestsAdmin, getTest, getTestPractice, saveTest, deleteTest };
