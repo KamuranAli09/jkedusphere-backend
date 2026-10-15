@@ -22,6 +22,8 @@ router.get('/', async (req, res) => {
         return res.json(await auth.resetPassword(req.body));
       case 'getTests':
         return res.json(await testCtrl.getAllTests());
+      case 'getAllTestsAdmin':
+        return res.json(await testCtrl.getAllTestsAdmin());
       case 'getTest':
         return res.json(await testCtrl.getTest(req.query.testId));
       case 'getTestPractice':
@@ -62,7 +64,7 @@ router.get('/', async (req, res) => {
         return res.json(await notesCtrl.seedNotes(req.query.key));
          case 'getPacks':
         return res.json(await packController.getAllPacks());
- 
+
       case 'getAllPacksAdmin':
         return res.json(await packController.getAllPacksAdmin());
       default:
@@ -119,7 +121,7 @@ router.post('/', async (req, res) => {
         return res.json(await notesCtrl.deleteNote(req.body.noteId));
         case 'savePack':
         return res.json(await packController.savePack(req.body));
- 
+
       case 'deletePack':
         return res.json(await packController.deletePack(req.body.packId));
       default:
